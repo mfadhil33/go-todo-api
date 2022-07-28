@@ -1,13 +1,13 @@
 # API Specifications
 Todo api specifications
 
-> Base URL : http://localhost:5000
+> Base URL : http://localhost:`PORT`
 
 > Auth : - (No Auth)
 
 ## Table of contents
 - [Endpoints](#endpoints)
-    - [[GET] /api/healthcheck](#health-check)
+    - [[GET] /api/healthcheck](#get-apihealthcheck)
     - todos
       - [[GET] /api/todos](#get-apitodos)
       - [[POST] /api/todos](#post-apitodos)
