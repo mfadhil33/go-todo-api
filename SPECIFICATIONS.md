@@ -7,6 +7,7 @@ Todo api specifications
 
 ## Table of contents
 - [Endpoints](#endpoints)
+    - [[GET] /api/healthcheck](#health-check)
     - todos
       - [[GET] /api/todos](#get-apitodos)
       - [[POST] /api/todos](#post-apitodos)
@@ -16,6 +17,18 @@ Todo api specifications
 - [Error Response](#error-response)
 
 ## Endpoints
+
+### [GET] /api/healthcheck
+#### response status:
+- `200 OK`
+- `any server error status`
+
+#### response body:
+```js
+{
+    message: string
+}
+```
 
 ### [GET] /api/todos
 #### request body:
